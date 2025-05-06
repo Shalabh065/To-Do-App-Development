@@ -38,7 +38,7 @@ To run the project locally:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/todo-app.git
+   git clone https://github.com/Shalabh065/To-Do-App-Development.git
    cd todo-app
 2. Open index.html in your browser.
 
