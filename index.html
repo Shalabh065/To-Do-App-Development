@@ -1,32 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>To-Do App</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To-Do App</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="app-container">
-        <header>
-            <h1>To-Do App</h1>
-        </header>
-        <main>
-            <section class="input-section">
-                <input type="text" id="task-input" placeholder="Enter a new task">
-                <button id="add-task-btn">Add</button>
-            </section>
-            <section class="task-list-section">
-                <h2>My Tasks</h2>
-                <ul id="task-list">
-                    </ul>
-                <p id="no-tasks-message" class="hidden">You have no tasks. Add some!</p>
-            </section>
-        </main>
-        <footer>
-            <p>&copy; <span id="current-year"></span> To-Do App. Simple & Effective.</p>
-        </footer>
+  <div class="container">
+    <h1>To-Do App</h1>
+    <div class="input-group">
+      <input type="text" id="taskInput" placeholder="Enter a new task">
+      <button id="addBtn">Add</button>
     </div>
-    <script src="script.js"></script>
+    <ul id="taskList"></ul>
+  </div>
+  <script src="script.js"></script>
 </body>
 </html>
